@@ -1,0 +1,1148 @@
+
+h1,h2,h3,h4,h5,h6,a,button {font-family: 'Montserrat', sans-serif;}
+
+
+p,span,strong,em,div{font-family: 'Montserrat', sans-serif;}
+
+
+body{ margin: 0 auto;}
+
+
+h1,h2,h3,h4,h5,h6,p,figure {margin: 0;}
+
+
+header,aside,main,footer,section,article,figure,nav{display: block;}
+aside#menu-responsive { 
+    width: 290px; 
+    height: 100%; 
+    display: none; 
+    margin: 0; 
+    float: none; 
+    position: fixed; 
+    top: 0; left: -290px; 
+    z-index: 99998; 
+    background: #7B1FA2; 
+ }
+aside#menu-responsive a#abrir{
+    width: 35px;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: none;
+    position: absolute;
+    top: 20px;
+    right: -35px;
+    z-index: 1;
+    color: #9c27b0;
+    background: #fff;
+    border-radius: 0 5px 5px 0;
+    font-size: 1.25em;
+    line-height: 1em;
+    text-align: center;
+    padding: 7px 0;
+    transition: all 0.3s ease-in; 
+}
+aside#menu-responsive a#abrir:hover{ 
+    background: #E1BEE7;
+    transition: all 0.3s ease-in; 
+}
+
+aside#menu-responsive a#cerrar{
+    width: 35px;
+    height: auto;
+    display: none;
+    margin: 0;
+    float: none;
+    position: absolute;
+    top: 20px;
+    right: -35px;
+    z-index: 2;
+    color: #fff;
+    background: #212121;
+    border-radius: 0 5px 5px 0;
+    font-size: 1.25em;
+    line-height: 1em;
+    text-align: center;
+    padding: 7px 0;
+    transition: all 0.3s ease-in; 
+}
+aside#menu-responsive a#cerrar:hover{
+    background: #7B1FA2;
+    transition: all 0.3s ease-in;
+}
+
+aside#menu-responsive nav { 
+    width: 58%; 
+    height: auto; 
+    display: block; 
+    margin: 25px auto 0 auto; 
+    float: none; 
+    position: relative; }
+aside#menu-responsive nav a { 
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    float: none; 
+    position: relative; 
+    font-size: 1em; 
+    line-height: 1em; 
+    color: #fff; 
+    text-decoration: none; 
+    padding: 14px 0; 
+    text-align: right; }
+aside#boton-whatsapp {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    float: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index:99996;   
+} 
+    
+aside#boton-whatsapp a {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    color: #fff;
+    background: #9C27B0;
+    border-radius: 50%;
+    font-size: 1.55em;
+    line-height: 1em;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease-in;
+}
+aside#boton-whatsapp a:hover{
+    color: #9C27B0;
+    background: #fff;
+    transition: all 0.3s ease-in;
+}
+/* Header */
+
+header{
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    float: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:99995;
+    background: #7B1FA2;
+}
+header article{
+    width: 1100px;
+    height: 80px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+header article figure {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 3px 0;
+    float: left;
+    position: relative;
+
+}
+header article figure a {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    transition: all 0.3s ease-in;
+}
+header article figure a img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    transition: all 0.3s ease-in;
+}
+header article figure a:hover{
+    opacity: 0.8;
+    transition: all 0.3s ease-in;
+}
+
+header article nav{
+    width: 700px;
+    height: 30px;
+    display: block;
+    margin: 25px 0;
+    float: right;
+    position: relative;
+}
+header article nav a{
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0px 15PX;
+    float: left;
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+    line-height: 1em;
+    text-decoration: none;
+    padding: 8px 0;
+    font-weight: 300;
+    letter-spacing: 0.07em;
+}
+
+header article nav a:hover{
+    color: #E1BEE7;
+    border-bottom: solid 2px #E1BEE7;
+    transition: all 0.3s ease-in;
+}
+
+header article nav a.activo{
+    color: #E1BEE7;
+    border-bottom: solid 2px #E1BEE7;
+    transition: all 0.3s ease-in;
+}
+main{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 80px auto 0 auto;
+    float: none;
+    position: relative;
+} 
+main section#banner{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#banner article{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: url(../img/fondos/banner.jpg) no-repeat top center #7B1FA2;
+    background-size: cover;
+}
+
+main section#banner article h1{
+    text-align: center;
+    text-decoration: none;
+    padding: 14% 21% 0;
+    color: #fff;
+    font-size: 3.5em;
+    margin: 0;
+    font-weight: 400;
+ 
+}
+main section#banner article h2{
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 385px 8px 21%;
+    color: #000;
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0.020em;
+}
+main section#banner article a{
+    width: 100px;
+    height: auto;
+    margin: 0 0 0 47%;
+    float: none;
+    display: block;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 400;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: #9C27B0;
+}
+main section#banner article  a:hover{
+    color: #7B1FA2;
+    background: #E1BEE7;
+    transition: all 0.3s ease-in;
+}
+
+
+main section#profile{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #E1BEE7;
+}
+main section#profile article{
+    width: 1200px;
+    height: 675px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#profile article figure{
+    width: 500px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    padding: 115px 0;
+}
+main section#profile article figure#texto-perfil{
+    width: 527px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 128px 0;
+    background: #fff
+}
+main section#profile article figure img{
+    width: 500px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+main section#profile article figure h3{
+    margin: 20px 0 0 0;
+    display: block;
+    font-size: 2.2em;
+    text-align: center;
+}
+main section#profile article figure p{
+    margin: 50px 0 70px 0;
+    display: block;
+    font-size: 1.1em;
+    text-align: center;
+    color: black;
+}
+main section#profile article figure a{
+    width: 128px;
+    height: auto;
+    margin: 0 0 0 37%;
+    float: none;
+    display: block;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 5px 16px;
+    border-radius: 20px;
+    background: #9C27B0;
+}
+main section#profile article figure a:hover{
+    color: #9C27B0;
+    background: #E1BEE7;
+    transition: all 0.3s ease-in;
+}
+
+main section#services{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        float: none;
+        position: relative;
+        background: #fff;
+}
+main section#services article{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#services article figure#advertising-design{
+    width: 580px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    padding: 136px 0;
+}
+main section#services article figure#editorial-design{
+    width: 580px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    padding: 136px 0;
+}
+main section#services article figure img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+main section#services article h1{
+    margin: 56px 0 0 59%;
+    display: block;
+    font-size: 1.9em;
+    text-align: left;
+}
+main section#services article a{
+    width: 128px;
+    height: auto;
+    margin: 0 0 0 59%;
+    float: none;
+    display: block;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 5px 16px;
+    border-radius: 20px;
+    background: #9C27B0;
+}
+main section#portfolio{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #bdbdbd;
+}
+main section#portfolio article{
+    width: 1200px;
+    height: 650px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#portfolio figure#izquierda{
+    width: 380px;
+    height: auto;
+    display: block;
+    margin: 50px 0 auto;
+    float: left;
+    position: relative;
+} 
+main section#portfolio figure#izquierda img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 0 14px;
+    float: none;
+    position: relative;
+}
+main section#portfolio figure#centro{
+    width: 380px;
+    height: auto;
+    display: block;
+    margin: 55px 30px 0 30px;
+    float: left;
+    position: relative;
+    padding: 0;
+}
+main section#portfolio figure#centro img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 0 67px 0;
+    float: none;
+    position: relative;
+}
+main section#portfolio figure#derecha{
+    width: 380px;
+    height: auto;
+    display: block;
+    margin: 56px 0;
+    float: right;
+    position: relative;
+   
+}
+main section#portfolio figure#derecha img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 0 10px 0;
+    float: none;
+    position: relative;    
+}
+main section#contactame { 
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+   background: #E1BEE7;
+}
+main section#contactame div{
+    width: 100%;
+    height: 1px;
+    margin: 0 ;
+    float: none;
+    position: absolute;
+    top: -80px;
+    left: 0;
+    padding:0;
+    background:transparent;
+}
+main section#contactame article {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    padding: 80px 0;
+}
+main section#contactame article p {
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 1em;
+    color: #fff;
+    padding: 0 0 20px;
+    letter-spacing: 0.030em;
+}
+main section#contactame article nav {
+    width: 290px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#contactame article nav a {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 16px;
+    float: none;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0;
+    background: #9c27b0;
+    transition: all 0.3s ease-in;
+    font-size: 1.2em;
+    letter-spacing: 0.020em;
+    border-radius: 30px;
+}
+main section#contactame article nav a:hover {
+    color: #9C27B0;
+    background: #fff;
+    transition: all 0.3s ease-in;
+}
+main section#arriba {   
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+   background: #fff;} 
+
+main section#arriba article { 
+    width: 1100px;
+    height: 700px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    padding: 5% 0;
+}
+
+main section#arriba article figure#branding {   
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    background: #E1BEE7;}
+
+main section#arriba article figure#branding img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: none;
+    position: relative; }
+
+main section#arriba article figure#branding h3 { 
+    margin: 0;
+    display: block;
+    font-size: 2.2em;
+    text-align: center;
+background: #9C27B0;
+border-radius: 13px;
+}
+
+main section#arriba article figure#branding p { 
+     text-align: center;
+    font-size: 1.4em;
+    line-height: 1em;
+    color: #000;
+    padding: 0 0 20px;
+    letter-spacing: 0.030em;
+    background: #E1BEE7;
+    margin: 10px;}
+
+main section#arriba article figure#corporate-image { 
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: right;
+    position: relative;
+    background: #E1BEE7;
+}
+
+main section#arriba article figure#corporate-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: none;
+    position: relative; }
+
+main section#arriba article figure#corporate-image h3 { 
+    margin: 0;
+    display: block;
+    font-size: 2.2em;
+    text-align: center;
+    background: #9C27B0;
+    border-radius: 13px;
+}
+
+main section#arriba article figure#corporate-image p {  
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 1em;
+    color: #000;
+    padding: 0 0 20px;
+    letter-spacing: 0.030em;
+    background: #E1BEE7;
+    margin: 10px; 
+    
+}
+main section#abajo {   
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+   background: #fff;} 
+
+main section#abajo article { 
+    width: 1100px;
+    height: 700px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    padding: 5% 0;
+}
+main section#abajo article figure#exterior-advertising {   
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    background: #E1BEE7;}
+
+main section#abajo article figure#exterior-advertising img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: none;
+    position: relative; }
+
+main section#abajo article figure#exterior-advertising h3 { 
+    margin: 0;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    background: #9C27B0;
+    border-radius: 13px;
+}
+        
+main section#abajo article figure#exterior-advertising p {  
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 1em;
+    color: #000;
+    padding: 0 0 20px;
+    letter-spacing: 0.030em;
+    background: #E1BEE7;
+    margin: 10px; 
+}        
+main section#abajo article figure#online-advertising { 
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: right;
+    position: relative;
+    background: #E1BEE7;
+}
+
+main section#abajo article figure#online-advertising img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: none;
+    position: relative; }
+
+main section#abajo article figure#online-advertising h3 { 
+    margin: 0;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    background: #9C27B0;
+    border-radius: 13px;
+}
+
+main section#abajo article figure#online-advertising p {  
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 1em;
+    color: #000;
+    padding: 0 0 20px;
+    letter-spacing: 0.030em;
+    background: #E1BEE7;
+    margin: 10px;
+}
+main section#editorial-design {   
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+   background: #fff;} 
+
+main section#editorial-design article { 
+    width: 1100px;
+    height: 700px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    padding: 5% 0;
+}
+main section#editorial-design article figure#cover-design {   
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    background: #E1BEE7;}
+
+main section#editorial-design article figure#cover-design img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: none;
+    position: relative; }
+
+main section#editorial-design article figure#cover-design h3 { 
+    margin: 0;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    background: #9C27B0;
+    border-radius: 13px;
+}
+        
+main section#editorial-design article figure#cover-design p {  
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 1em;
+    color: #000;
+    padding: 0 0 20px;
+    letter-spacing: 0.030em;
+    background: #E1BEE7;
+    margin: 10px; 
+}
+main section#editorial-design article figure#text-layout {   
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: right;
+    position: relative;
+    background: #E1BEE7;}
+
+main section#editorial-design article figure#text-layout img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: none;
+    position: relative; }
+
+main section#editorial-design article figure#text-layout h3 { 
+    margin: 0;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    background: #9C27B0;
+    border-radius: 13px;
+}
+        
+main section#editorial-design article figure#text-layout p {  
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 1em;
+    color: #000;
+    padding: 0 0 20px;
+    letter-spacing: 0.030em;
+    background: #E1BEE7;
+    margin: 10px; 
+}         
+footer{
+    width: 100%;
+    height: auto;
+    margin:0 auto ;
+    float: none;
+    position: relative;
+    background: #7B1FA2;
+}
+footer article {
+    width: 80px;
+    height: auto;
+    margin:0 auto;
+    float: none;
+    position: relative;
+    padding: 50px 0;
+
+}
+footer article a {
+    width: 55px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+footer article a img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    float: none;
+    position: relative;
+}
+
+footer article nav {
+    width: 55px;
+    height: 34px;
+    margin: 10px auto 0 auto;
+    display: block;
+    float: none;
+    position: relative;
+}
+footer article nav a {
+    width: 55px;
+    height: auto;
+    display: block;
+    margin: 0 2px;
+    float: left;
+    position: relative;
+    color: #e1bbe1;
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+    padding: 7px 0;
+    transition: all 0.3s ease-in;
+}
+/* Tablets */
+@media only screen and (max-width: 1199px){
+    aside#menu-responsive { display: block; }
+    header {height: 90px;}
+    header article {width: 80%}
+    header article figure {margin: 5px 0}
+    header article nav{
+        width: 650pxpx;}
+    header article nav a{margin: 0px 9PX;}   
+
+    main section#banner article h2 {padding: 2px 385px 8px 33%;}
+    main section#profile article {width: 1000px;}
+    main section#profile article figure {width: 450px;}
+    main section#profile article figure img {height: auto;}
+    main section#profile article figure#texto-perfil {width: 450px;}
+    main section#profile article figure a {margin: 0 0 0 34%;}
+
+    main section#services article {width: 1000px;}
+    main section#services article figure#advertising-design {width: 450px}
+    main section#services article figure#editorial-design {width: 450px}
+
+    main section#portfolio article {width: 100%;
+        height: 600px;}
+    main section#portfolio figure#izquierda {width: 330px;
+        margin: 50px 0 50px 70px;}
+    main section#portfolio figure#centro {width: 330px;}
+    main section#portfolio figure#derecha {
+        width: 330px;
+        float: left;}
+        
+
+    
+   
+
+}        
+@media only screen and (max-width: 899px){
+    header article nav {width: 600px}
+    header article nav a {font-size: 0.9em;}
+
+    main section#banner article h2{
+        padding: 6px 220px 8px 33%;
+        margin: 0px 85px 0 10px;}
+    main section#banner article a{
+        margin: 0 0 0 43%;}
+    
+    main section#profile article { width: 800px}
+    main section#profile article figure{
+        width: 400px;
+        margin: 0 -22px;}
+    main section#profile article figure img {
+        width: 400px;
+        height: auto;}    
+    main section#profile article figure#texto-perfil{
+        width: 400px;}
+    main section#profile article figure a {margin: -9% 0 0 30%;}
+    
+    main section#services article {
+        width: 800px;}
+    main section#services article figure#advertising-design { 
+        width: 350px;    
+        padding: 80px 0;}
+    main section#services article figure#editorial-design { 
+        width: 350px;    
+        padding: 80px 0;}    
+    main section#services article figure img { 
+        width: 100%;}
+    main section#services article h1 {
+        margin: 0;
+        text-align: center}    
+    main section#services article a{
+        margin: 0 0 0 26%;}
+    
+    main section#portfolio article {
+        width: 100%}
+    main section#portfolio figure#izquierda {
+        width: 30%;
+        margin: 92px 0 40px 5px;}
+    main section#portfolio figure#centro {            
+        width: 35%;
+        margin: 87px 16px 0 17px;}
+    main section#portfolio figure#centro img {
+        margin: 4px 0 5px 0;}    
+    main section#portfolio figure#derecha {
+        width: 30%;    
+        margin: 95px 0px;}
+
+
+    
+
+}
+  
+
+@media only screen and (max-width: 799px){
+    header article figure {margin: 8px 284px;}
+    header article nav {display: none}
+
+    main section#banner article h1 {padding: 30% 13% 0;}
+    main section#banner article h2 {
+        padding: 0;
+        margin: 0;}
+    main section#banner article a {
+        margin: 15px 0 0 41%;}
+    
+    main section#profile article {
+        width: 700px;}
+    main section#profile article figure {
+        width: 50%;
+        margin: 0;} 
+    main section#profile article figure img {
+        width: 350px;
+        margin: 59px auto;}
+    main section#profile article figure#texto-perfil {
+        width: 350px;} 
+    main section#profile article figure h3 {
+        margin: 32px 0 0px 0px;} 
+    main section#profile article figure p {
+        margin: 48px 15px 52px 15px;}
+    main section#profile article figure a {
+        margin: 0px 91px;}     
+
+    main section#services article {
+        width: 100%;}
+    main section#services article figure#advertising-design { margin: 0 0px 0 25px;}
+    main section#services article figure#editorial-design { margin: 0 25px;}  
+    
+    main section#portfolio figure#izquierda {
+        margin: 125px 0 40px 3px;}
+    main section#portfolio figure#centro {
+       margin: 120px 16px 0 17px;}    
+    main section#portfolio figure#derecha {
+        margin: 127px 0px;}
+}
+  
+
+@media only screen and (max-width: 599px){
+    header article figure {
+        margin: 8px 212px;}
+    
+    main section#profile article {
+        width: 500px;}
+    main section#profile article figure img {
+         margin: 74px -47px;}
+    main section#profile article figure a {
+        margin: 0px 47px} 
+    main section#profile article figure#texto-perfil {
+        width: 250px;}
+    
+    main section#services article {
+        width: 500px;
+        height: 900px;}    
+    main section#services article figure#advertising-design {
+        margin: 0 0px 0 74px;
+        float: none;}
+    main section#services article figure#editorial-design {
+        padding: 0;
+        margin: 0px 0 0 74px;
+        float: none;}
+
+    main section#portfolio article {
+        height: 2000px;}
+    main section#portfolio figure#izquierda {
+        width: 80%;
+        margin: 0px 55px;
+        padding: 22px 0 0 0; 
+        float: none;}
+    main section#portfolio figure#centro {
+        width: 80%; 
+        margin: 15px 16px 0 55px;
+        float: none;}
+    main section#portfolio figure#centro img {
+        margin: 15px 0 5px 0;}
+    main section#portfolio figure#derecha {
+        width: 80%;
+        float: none; 
+        margin: 15px 0 0 55px;}
+    main section#portfolio figure#derecha img {
+        margin: 0 0 15px 0;}
+
+
+
+
+}
+   
+
+/* Móviles */
+@media only screen and (max-width: 499px){
+    header article figure {
+        margin: 8px 178px;}
+
+    main section#profile article figure img {
+        width: 290px;
+        margin: 74px 0px;}
+    
+    main section#portfolio article {
+        height: 1700px;    
+}
+   
+
+@media only screen and (max-width: 449px){
+    aside#boton-whatsapp {right: 90px;}
+    header article figure {
+        margin: 8px 155px;}
+    
+    main section#profile article {
+            width: 400px;}   
+    main section#profile article figure {
+        width: 50%;}
+        main section#profile article figure img {
+        width: 250px;
+        margin: 107px -25px;}
+    main section#profile article figure#texto-perfil {
+       width: 200px;
+       margin: 0 -25px 0 0;}
+       main section#profile article figure h3 {
+        margin: 0;}
+        main section#profile article figure p {
+            margin: 20px 15px 30px 15px;
+            font-size: 1em;}
+            main section#profile article figure a {
+                margin: 0px 20px;}
+    
+    main section#services article {
+        width: 400px;}
+    main section#services article figure#advertising-design {
+        margin: 0 0px 0 25px;}               
+    main section#services article figure#editorial-design {
+        margin: 0 0px 0 25px;}
+    
+    main section#portfolio article {
+        height: 1550px;}
+    main section#portfolio figure#izquierda {
+        margin: 0px 44px;}
+    main section#portfolio figure#centro {
+        margin: 15px 16px 0 44px;}
+    main section#portfolio figure#centro {
+        margin: 15px 0px 0 44px;}    
+
+    
+
+        
+}
+   
+
+@media only screen and (max-width: 399px){
+    aside#boton-whatsapp {
+        right: 50px;}
+    header article figure {
+        margin: 8px 137px;}
+    
+    main section#banner article a {
+            margin: 15px 0 0 32%;}
+        main section#banner article h1 {
+        padding: 55% 13% 0;}
+    
+    main section#profile article figure img {
+        width: 250px;
+        margin: 107px -15px;} 
+    main section#profile article figure#texto-perfil {
+        width: 200px;
+        margin: 0 0px 0 0px;}
+    
+    main section#portfolio article {
+        height: 1400px;}
+    main section#portfolio figure#derecha {
+        margin: 15px 0 0 44px;}
+
+    
+    
+
+}
+
+
